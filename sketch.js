@@ -11,7 +11,7 @@ var b10, b11, b12;
 var b13, b14;
 var b15;
 var score = 0;
-// var screen = "bg.png"
+var screen = "day_bg.jpg";
 
 function preload() {
   getTime();
@@ -66,6 +66,7 @@ function draw() {
   }
   drawSprites();
 
+  fill("white");
   text("SCORE: " + score, 20, 20);
 
   ground.display();
